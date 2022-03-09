@@ -1,0 +1,72 @@
+$primary: #a273f9;
+$primary-100: tint($primary, 80%);
+$primary-200: tint($primary, 60%);
+$primary-300: tint($primary, 40%);
+$primary-400: tint($primary, 20%);
+$primary-500: $primary;
+$primary-600: shade($primary, 20%);
+$primary-700: shade($primary, 40%);
+$primary-800: shade($primary, 60%);
+$primary-900: shade($primary, 80%);
+
+// color-p - stands for color-primary (semantic approach)
+// or you can use declarative approach color-purple-100 
+.color-p {
+    color: $primary !important;
+}
+.color-p-100 {
+    color: $primary-100 !important;
+}
+.color-p-200 {
+    color: $primary-200 !important;
+}
+.color-p-300 {
+    color: $primary-300 !important;
+}
+.color-p-400 {
+    color: $primary-400 !important;
+}
+.color-p-500 {
+    color: $primary-500 !important;
+}
+.color-p-600 {
+    color: $primary-600 !important;
+}
+.color-p-700 {
+    color: $primary-700 !important;
+}
+.color-p-800 {
+    color: $primary-800 !important;
+}
+.color-p-900 {
+    color: $primary-900 !important;
+}
+
+// Background colors
+.bg-p-100 {
+    background-color: $primary-100 !important;
+}
+.bg-p-200 {
+    background-color: $primary-200 !important;
+}
+.bg-p-300 {
+    background-color: $primary-300 !important;
+}
+.bg-p-400 {
+    background-color: $primary-400 !important;
+}
+.bg-p-500 {
+    background-color: $primary-500 !important;
+}
+.bg-p-600 {
+    background-color: $primary-600 !important;
+}
+.bg-p-700 {
+    background-color: $primary-700 !important;
+}
+.bg-p-800 {
+    background-color: $primary-800 !important;
+}
+.bg-p-900 {
+    background-color: $primary-900 !important;
+}

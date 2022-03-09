@@ -1,0 +1,25 @@
+// luma Fonts
+$fontSizeSmall: 13px;
+$fontSizeMedium: 15px;
+$fontSizeLarge: 17px;
+
+$lineHeightSmall: 22px;
+$lineHeightMedium: 24px;
+$lineHeightLarge: 28px;
+
+$fontFamily: 'Open Sans', sans-serif;
+
+.text-s {
+    font-size: $fontSizeSmall !important;
+    line-height: $lineHeightSmall !important;
+}
+
+.text-m {
+    font-size: $fontSizeMedium !important;
+    line-height: $lineHeightMedium !important;
+}
+
+.text-l {
+    font-size: $fontSizeLarge !important;
+    line-height: $lineHeightLarge !important;
+}

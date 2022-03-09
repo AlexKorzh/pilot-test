@@ -1,0 +1,35 @@
+// luma layout
+$gutter: 8px;
+$gutter2x: $gutter * 2;
+$gutter3x: $gutter * 3;
+// it can be improved
+$primaryBoxShadow: 0 2px $gutter rgba(0, 0, 0, 0.1);
+
+.mt-1 {
+    margin-top: $gutter !important;
+}
+.mt-2 {
+    margin-top: $gutter2x !important;
+}
+.mt-3 {
+    margin-top: $gutter3x !important;
+}
+
+.p-2 {
+    padding: $gutter2x !important;
+}
+
+.p-3 {
+    padding: $gutter3x !important;
+}
+
+.pl-3 {
+    padding-left: $gutter3x !important;
+}
+
+.shadow-base {
+    box-shadow: $primaryBoxShadow;
+}
+
+
+
